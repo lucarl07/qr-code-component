@@ -1,4 +1,5 @@
-import Footer from "./components/Footer/FooterRoot";
+import "./App.css";
+import Footer from "../Footer/FooterRoot";
 
 const App = () => {
   return <Footer />;
