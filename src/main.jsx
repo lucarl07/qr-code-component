@@ -5,6 +5,7 @@ import App from "./components/App/App";
 
 // Stylesheets:
 import * as bootstrap from "bootstrap";
+import "./styles.scss";
 import "./index.scss";
 
 createRoot(document.getElementById("root")).render(
