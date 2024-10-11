@@ -7,7 +7,7 @@ const CardImage = ({src, alt}) => {
 }
 
 CardImage.propTypes = {
-  src: PropTypes.string,
+  src: PropTypes.string.isRequired,
   alt: PropTypes.string
 }
 
