@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const FooterRoot = ({children}) => {
   return (
-    <div class="attribution">
+    <div className="attribution">
       {children}
     </div>
   );

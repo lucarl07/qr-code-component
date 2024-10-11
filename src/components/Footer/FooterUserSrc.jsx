@@ -8,7 +8,7 @@ const FooterUserSrc = ({href, name}) => {
   );
 }
 
-FooterChallengeSrc.propTypes = {
+FooterUserSrc.propTypes = {
   href: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired
 }
