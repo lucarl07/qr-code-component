@@ -1,8 +1,10 @@
 import "./App.css";
-import Footer from "../Footer/FooterRoot";
+import Card from "../Card";
 
 const App = () => {
-  return <Footer />;
+  return (
+    <h1>Olá!</h1>
+  );
 };
 
 export default App;
