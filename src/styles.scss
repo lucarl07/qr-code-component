@@ -1,10 +1,5 @@
 @import "bootstrap/scss/bootstrap";
 
-@font-face {
-  font-family: "Outfit";
-  src: url(./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf);
-}
-
 // Using colors:
 $color-white: #FFFFFF;
 $color-slate-300: hsl(212, 45%, 89%);
@@ -13,6 +8,11 @@ $color-slate-900: hsl(218, 44%, 22%);
 
 // Using font:
 $font-stack: "Outfit", sans-serif;
+
+@font-face {
+  font-family: "Outfit";
+  src: url(./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
 
 @mixin def-paragraph ($color: #000) {
   font-size: 15px;
