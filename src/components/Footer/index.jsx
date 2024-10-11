@@ -1,11 +1,9 @@
-import FooterRoot from "./FooterRoot";
-import FooterChallengeSrc from "./FooterChallengeSrc";
-import FooterUserSrc from "./FooterUserSrc";
+import Root from "./FooterRoot";
+import ChallengeSrc from "./FooterChallengeSrc";
+import UserSrc from "./FooterUserSrc";
 
 const Footer = {
-  Root: FooterRoot,
-  ChallengeSrc: FooterChallengeSrc,
-  UserSrc: FooterUserSrc
+  Root, ChallengeSrc, UserSrc
 }
 
 export default Footer;
