@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const CardRoot = ({children}) => {
   return (
-    <section>
+    <section className="container">
       {children}
     </section>
   );
