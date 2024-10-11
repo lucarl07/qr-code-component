@@ -1,7 +1,7 @@
 // Dependencies:
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./components/App/App";
+import App from "./pages/App";
 
 // Stylesheets:
 import * as bootstrap from "bootstrap";
