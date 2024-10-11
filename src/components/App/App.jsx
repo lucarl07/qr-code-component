@@ -1,5 +1,5 @@
 // Stylesheet:
-import "./App.css";
+import "./App.scss";
 
 // Assets:
 import imgQRCode from "../../assets/images/image-qr-code.png"
