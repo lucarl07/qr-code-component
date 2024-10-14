@@ -1,6 +1,6 @@
 {
-  "name": "qr-code-component-main",
-  "private": true,
+  "name": "qr-code-component",
+  "homepage": "https://github.com/lucarl07/qr-code-component",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
