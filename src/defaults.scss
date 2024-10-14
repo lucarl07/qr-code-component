@@ -14,7 +14,13 @@ $font-stack: "Outfit", sans-serif;
   src: url(./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf);
 }
 
-@mixin def-paragraph ($color: #000) {
+@mixin shadow($opacity: 1, $length: 20px) {
+  box-shadow: 0 0 $length hsla(216, 15%, 48%, $opacity);
+}
+
+@mixin def-text ($color: #000, $weight: 400) {
   font-size: 15px;
+  font-family: $font-stack;
   color: $color;
+  font-weight: $weight;
 }
