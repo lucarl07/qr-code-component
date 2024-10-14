@@ -1,5 +1,5 @@
-@use 'styles';
+@use 'defaults' as *;
 
 body {
-  background-color: styles.$color-slate-300;
+  background-color: $color-slate-300;
 }
