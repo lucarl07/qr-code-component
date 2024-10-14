@@ -4,11 +4,9 @@ import Card from "../components/Card";
 // Assets:
 import imgQRCode from "../assets/images/image-qr-code.png";
 
-const componentValues = {
-  card: {
-    title: "Improve your front-end skills by building projects",
-    text: "Scan the QR code to visit Frontend Mentor and take your coding skills to the next level",
-  }
+const cardValues = {
+  title: "Improve your front-end skills by building projects",
+  text: "Scan the QR code to visit Frontend Mentor and take your coding skills to the next level",
 };
 
 const App = () => {
@@ -16,8 +14,8 @@ const App = () => {
     <>
       <Card.Root>
         <Card.Image src={imgQRCode} />
-        <Card.Title value={componentValues.card.title} />
-        <Card.Text value={componentValues.card.text} />
+        <Card.Title value={cardValues.title} />
+        <Card.Text value={cardValues.text} />
       </Card.Root>
     </>
   );
