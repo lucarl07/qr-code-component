@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const CardImage = ({src, alt}) => {
   return (
     <img
-      className="w-75 rounded-3"
+      className="rounded-3"
       src={src} 
       alt={alt} 
       />

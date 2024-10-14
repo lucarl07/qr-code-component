@@ -1,0 +1,15 @@
+@use '../../defaults' as *;
+@use '../../index';
+
+.card {
+  @include shadow(0.4);
+  width: 280px;
+}
+
+.h1 {
+  @include def-text($color-slate-900, 700);
+}
+
+.p {
+  @include def-text($color-slate-900, 300);
+}

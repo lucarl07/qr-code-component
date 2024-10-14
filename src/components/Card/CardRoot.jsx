@@ -1,10 +1,12 @@
+import styles from "./Card.module.scss"
 import PropTypes from "prop-types";
 
 const CardRoot = ({children}) => {
   return (
     <section className={`
-      container d-flex flex-column align-items-center object-fit-cover 
-      w-25 py-3 rounded-4 bg-white
+      container d-flex flex-column
+      p-3 rounded-4 bg-white
+      ${styles.card}
     `}>
       {children}
     </section>
