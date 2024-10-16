@@ -11,5 +11,5 @@
 }
 
 .p {
-  @include def-text($color-slate-900, 300);
+  @include def-text($color-slate-900, 200);
 }
