@@ -1,7 +1,7 @@
 {
   "name": "qr-code-component",
   "homepage": "https://github.com/lucarl07/qr-code-component",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite && sass --quiet-deps",
